@@ -1,0 +1,27 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# LaTeX build artifacts (report/main.pdf SI se versiona, es el entregable)
+report/*.aux
+report/*.log
+report/*.out
+report/*.toc
+report/*.fls
+report/*.fdb_latexmk
+report/*.synctex.gz
+
+# Dataset (2.5GB, varios CSV superan el limite de 100MB de GitHub;
+# se descarga de nuevo en cada PC desde la fuente original)
+data/
+
+# Archivos de bloqueo de Word/Office abiertos
+~$*.doc*
+~$*.xls*

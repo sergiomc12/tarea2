@@ -1,0 +1,3 @@
+tipo,n_columnas
+numerico (int64/float64),106
+categorico (object/str),16
